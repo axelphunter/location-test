@@ -11,7 +11,7 @@
 |
 */
 
-Route::controller('vet/search', 'VetSearchController', array(
-	'getAll'=>'api.vet.search.all',
-	'postLocation'=>'api.vet.search.location',
+Route::controller('/', 'VetSearchController', array(
+	'getAll'=>'search.all',
+	'postLocation'=>'search.location',
 ));
